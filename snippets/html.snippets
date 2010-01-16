@@ -71,8 +71,7 @@ snippet doctype XHTML 1.1
 # HTML Doctype 4.01 Strict
 snippet docts
 	<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN""
-	"http://www.w3.org/TR/html4/strict.dtd">
-# HTML Doctype 4.01 Transitional
+/bin/bash: indent: command not found
 snippet doct
 	<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN""
 	"http://www.w3.org/TR/html4/loose.dtd">
@@ -188,3 +187,18 @@ snippet table
 	</table>${4}
 snippet textarea
 	<textarea name="${1:Name}" rows="${2:8}" cols="${3:40}">${4}</textarea>${5}
+
+snippet =
+	<?= ${1:stuff} ?>${2}
+snippet this
+	$this->${1:var}
+snippet foreach
+	<?php foreach (${1:vars} as ${2:var}) : ?>
+		${3://code}
+	<?php endforeach ?>
+snippet tr
+	<tr id="${1}" class="${2}">
+		<td id="${3}" class="${4}">${5:stuff}</td>${6}
+	</tr>
+snippet td
+	<td id="${1}" class="${2}">${3:stuff}</td>${4}

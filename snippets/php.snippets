@@ -218,3 +218,9 @@ snippet sfun
 # $... = array (...)
 snippet array
 	$${1:arrayName} = array('${2}' => ${3});${4}
+snippet vd
+	var_dump(${1:dump});${2:exit;}
+snippet gp
+	$${1:var} = $this->_getParam('$1');${2}
+snippet call
+	$this->api->call('/${1:service});${2}
