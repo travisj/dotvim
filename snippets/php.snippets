@@ -224,3 +224,6 @@ snippet gp
 	$${1:var} = $this->_getParam('$1');${2}
 snippet call
 	$this->api->call('/${1:service});${2}
+snippet ajax
+	$this->view->response = array('status'=>$status, 'msg'=>$msg${1});
+	$this->_forward('ajax', 'index');${2}

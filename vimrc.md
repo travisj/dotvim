@@ -1,4 +1,5 @@
 :autocmd FileType php noremap <C-L> :!/usr/bin/php -l %<CR>  
+:autocmd FileType phtml noremap <C-L> :!/usr/bin/php -l %<CR>  
 autocmd FileType phtml set ft=html.phtml " For SnipMate  
 
 filetype on  
@@ -24,3 +25,8 @@ map <C-c> :NERDTreeToggle<CR>
 map <C-k> :nohlsearch<CR>  
 
 nnoremap <CR> <C-^>  
+
+nmap \diff <Plug>VCSDiff
+
+let g:syntastic_enable_signs=1
+let g:syntastic_auto_loc_list=1
