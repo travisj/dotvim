@@ -3,6 +3,7 @@
 autocmd FileType phtml set ft=html.phtml " For SnipMate  
 autocmd FileType markdown set ft=html.markdown " For SnipMate  
 
+syntax on
 filetype on  
 filetype plugin on  
 
@@ -35,3 +36,12 @@ let g:syntastic_auto_loc_list=1
 
 au BufWinLeave * mkview
 au BufWinEnter * silent loadview
+
+let mapleader = ","
+set wildignore+=*Zend*,.git
+
+if !exists('*Wordpress_vim')
+	runtime vimblog.vim
+endif
+
+":set statusline=%F%m%r%h%w\ [TYPE=%Y]\ [POS=%04l,%04v][%p%%]\ [LEN=%L] 
