@@ -227,3 +227,5 @@ snippet call
 snippet ajax
 	$this->view->response = array('status'=>$status, 'msg'=>$msg${1});
 	$this->_forward('ajax', 'index');${2}
+snippet json
+	$this->_helper->json(array('status'=>$status, 'msg'=>$msg${1}));${2}
