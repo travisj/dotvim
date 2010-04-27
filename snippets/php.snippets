@@ -229,3 +229,11 @@ snippet ajax
 	$this->_forward('ajax', 'index');${2}
 snippet json
 	$this->_helper->json(array('status'=>$status, 'msg'=>$msg${1}));${2}
+snippet tryjson
+	try {
+		${1}
+		$status = 'OK';
+	} catch (Exception $e) {
+		$status = 'Error';
+		$msg = $e->getMessage();
+	}
