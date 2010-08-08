@@ -31,7 +31,7 @@ map <C-c> :NERDTreeToggle<CR>
 
 map <C-k> :nohlsearch<CR>  
 
-let mapleader = ","
+"let mapleader = ','
 
 "map ,l :source ~/.vimrc<CR>
 "map ,n :set number!<CR>
