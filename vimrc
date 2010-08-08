@@ -20,7 +20,6 @@ set textwidth=0
 set bs=2
 set noexpandtab
 set wildignore+=*Zend*,.git,*bundles*
-"set spell
 
 autocmd FileType phtml set ft=html.phtml " For SnipMate  
 autocmd FileType markdown set ft=html.markdown " For SnipMate  
@@ -34,9 +33,9 @@ map <C-k> :nohlsearch<CR>
 
 let mapleader = ","
 
-map ,l :source ~/.vimrc<CR>
-map ,n :set number!<CR>
-map ,p :set paste!<CR>
-map ,s :setlocal spell!<CR>
-map ,v :e ~/.vimrc<CR>
-map ,w :w<CR>
+"map ,l :source ~/.vimrc<CR>
+"map ,n :set number!<CR>
+"map ,p :set paste!<CR>
+"map ,s :setlocal spell!<CR>
+"map ,v :e ~/.vimrc<CR>
+"map ,w :w<CR>
