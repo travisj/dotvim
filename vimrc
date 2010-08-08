@@ -1,3 +1,6 @@
+autocmd FileType phtml set ft=html.phtml " For SnipMate  
+autocmd FileType markdown set ft=html.markdown " For SnipMate  
+
 syntax on
 filetype on  
 filetype plugin on  
@@ -21,21 +24,18 @@ set bs=2
 set noexpandtab
 set wildignore+=*Zend*,.git,*bundles*
 
-autocmd FileType phtml set ft=html.phtml " For SnipMate  
-autocmd FileType markdown set ft=html.markdown " For SnipMate  
-
-nnoremap <CR> <C-^>  
-
 let NERDTreeQuitOnOpen=1  
 map <C-c> :NERDTreeToggle<CR>  
 
 map <C-k> :nohlsearch<CR>  
+nnoremap <CR> <C-^>  
 
-"let mapleader = ','
+let mapleader = ","
 
-"map ,l :source ~/.vimrc<CR>
-"map ,n :set number!<CR>
-"map ,p :set paste!<CR>
-"map ,s :setlocal spell!<CR>
-"map ,v :e ~/.vimrc<CR>
-"map ,w :w<CR>
+map <leader>l :source ~/.vimrc<CR>
+map <leader>n :set number!<CR>
+map <leader>p :set paste!<CR>
+map <leader>s :setlocal spell!<CR>
+map <leader>v :e ~/.vimrc<CR>
+map <leader>w :w<CR>
+
