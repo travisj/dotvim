@@ -35,6 +35,7 @@ let mapleader = ","
 map <leader>l :source ~/.vimrc<CR>
 map <leader>n :set number!<CR>
 map <leader>p :set paste!<CR>
+map <leader>q :wqa<CR>
 map <leader>s :setlocal spell!<CR>
 map <leader>v :e ~/.vimrc<CR>
 map <leader>w :w<CR>
