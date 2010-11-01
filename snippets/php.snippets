@@ -237,3 +237,7 @@ snippet tryjson
 		$status = 'Error';
 		$msg = $e->getMessage();
 	}
+snippet cam
+	 value="<?= $this->form_mode == 'edit' ? $this->campaign['${1}'] : '' ?>"${2}
+snippet elje
+	error_log(json_encode(${1}));${2}

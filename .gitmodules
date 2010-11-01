@@ -1,0 +1,3 @@
+[submodule "plugin/vim-coffee-script"]
+	path = plugin/vim-coffee-script
+	url = git://github.com/kchmck/vim-coffee-script.git
