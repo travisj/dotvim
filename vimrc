@@ -1,6 +1,7 @@
 call pathogen#runtime_append_all_bundles()
 call pathogen#helptags()
 
+
 syntax on
 filetype on  
 filetype plugin on  
@@ -19,6 +20,7 @@ set showmatch
 set number  
 set ruler
 set statusline=%<\ %n:%f\ %m%r%y%=%-35.(line:\ %l\ of\ %L,\ col:\ %c%V\ (%P)%)
+set statusline+=%{fugitive#statusline()}
 set laststatus=2
 set tabstop=2  
 set softtabstop=2  
