@@ -3,6 +3,10 @@ call pathogen#runtime_append_all_bundles()
 syntax on
 filetype on  
 filetype plugin on  
+filetype plugin indent on
+
+set nocompatible
+set modelines=0
 
 autocmd BufRead,BufNewFile *.phtml set ft=php.html " For SnipMate  
 autocmd BufRead,BufNewFile markdown set ft=html.markdown " For SnipMate  
@@ -35,6 +39,7 @@ nnoremap <CR> <C-^>
 
 let mapleader = ","
 
+inoremap jj <ESC>
 map <leader>a :set wrap!<CR>
 map <leader>l :source ~/.vimrc<CR>
 map <leader>n :set number!<CR>
