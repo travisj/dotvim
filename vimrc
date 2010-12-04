@@ -1,4 +1,5 @@
 call pathogen#runtime_append_all_bundles()
+call pathogen#helptags()
 
 syntax on
 filetype on  
@@ -16,20 +17,27 @@ set hlsearch
 set smartindent  
 set showmatch  
 set number  
+set ruler
+set statusline=%<\ %n:%f\ %m%r%y%=%-35.(line:\ %l\ of\ %L,\ col:\ %c%V\ (%P)%)
+set laststatus=2
 set tabstop=2  
 set softtabstop=2  
 set shiftwidth=2  
 set noexpandtab  
 set incsearch  
 set ignorecase  
-"set cursorline  
 set autoread  
 set nowrap  
+set ttyfast
 set textwidth=0
 set bs=2
 set noexpandtab
+set wildmenu
+set wildmode=list:longest
 set wildignore+=*Zend*,.git,*bundles*
-"set tags
+set undofile
+
+set colorcolumn=85
 
 let NERDTreeQuitOnOpen=1  
 map <C-c> :NERDTreeToggle<CR>  
@@ -46,6 +54,7 @@ map <leader>n :set number!<CR>
 map <leader>o :only<CR>
 map <leader>p :set paste!<CR>
 map <leader>q :wqa<CR>
+map <leader>r :set relativenumber!<CR>
 map <leader>s :setlocal spell!<CR>
 map <leader>v :e ~/.vimrc<CR>
 map <leader>w :w<CR>
