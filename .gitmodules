@@ -13,9 +13,6 @@
 [submodule "bundle/nerdcommenter"]
 	path = bundle/nerdcommenter
 	url = https://github.com/scrooloose/nerdcommenter.git
-[submodule "bundle/sparkup"]
-	path = bundle/sparkup
-	url = https://github.com/bingaman/vim-sparkup.git
 [submodule "bundle/gundo"]
 	path = bundle/gundo
 	url = https://github.com/sjl/gundo.vim.git
@@ -49,3 +46,9 @@
 [submodule "bundle/vip"]
 	path = bundle/vip
 	url = https://github.com/tobyS/vip.git
+[submodule "bundle/ack"]
+	path = bundle/ack
+	url = https://github.com/mileszs/ack.vim.git
+[submodule "bundle/autoclose"]
+	path = bundle/autoclose
+	url = https://github.com/Townk/vim-autoclose.git

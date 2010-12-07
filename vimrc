@@ -51,6 +51,7 @@ let mapleader = ","
 
 inoremap jj <ESC>
 map <leader>a :set wrap!<CR>
+map <leader>g :GundoToggle<CR>
 map <leader>l :source ~/.vimrc<CR>
 map <leader>n :set number!<CR>
 map <leader>o :only<CR>
@@ -65,5 +66,7 @@ map <leader>/ /<C-p>
 lnoremap <leader>, <ESC>
 noremap <leader>, <ESC>
 "map <leader>| <c-w>|
+
+let g:sparkupExecuteMapping='<c-g>'
 
 :vmap // y/<C-R>"<CR> "search for visually highlighted text
