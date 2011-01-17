@@ -25,7 +25,7 @@ set laststatus=2
 set tabstop=2  
 set softtabstop=2  
 set shiftwidth=2  
-set noexpandtab  
+"set noexpandtab  
 set incsearch  
 set ignorecase  
 set autoread  
@@ -33,7 +33,6 @@ set nowrap
 set ttyfast
 set textwidth=0
 set bs=2
-set noexpandtab
 set wildmenu
 set wildmode=list:longest
 set wildignore+=*Zend*,.git,*bundles*
@@ -44,7 +43,6 @@ set colorcolumn=85
 let NERDTreeQuitOnOpen=1  
 map <C-c> :NERDTreeToggle<CR>  
 
-map <C-k> :nohlsearch<CR>  
 nnoremap <CR> <C-^>  
 
 let mapleader = ","
@@ -52,6 +50,7 @@ let mapleader = ","
 inoremap jj <ESC>
 map <leader>a :set wrap!<CR>
 map <leader>g :GundoToggle<CR>
+map <leader>k :nohlsearch<CR>  
 map <leader>l :source ~/.vimrc<CR>
 map <leader>n :set number!<CR>
 map <leader>o :only<CR>
@@ -66,6 +65,12 @@ map <leader>/ /<C-p>
 lnoremap <leader>, <ESC>
 noremap <leader>, <ESC>
 "map <leader>| <c-w>|
+
+"Easier splits navigation - Remapped Caps Lock to Control    
+nnoremap <C-h> <C-w>h
+nnoremap <C-j> <C-w>j
+nnoremap <C-k> <C-w>k
+nnoremap <C-l> <C-w>l
 
 let g:sparkupExecuteMapping='<c-g>'
 
