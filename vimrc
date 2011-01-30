@@ -10,8 +10,8 @@ filetype plugin indent on
 set nocompatible
 set modelines=0
 
-autocmd BufRead,BufNewFile *.phtml set ft=php.html " For SnipMate  
-autocmd BufRead,BufNewFile markdown set ft=html.markdown " For SnipMate  
+autocmd BufRead,BufNewFile *.phtml set ft=html
+autocmd BufRead,BufNewFile markdown set ft=markdown
 
 set autoindent  
 set hlsearch
