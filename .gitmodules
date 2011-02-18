@@ -52,3 +52,6 @@
 [submodule "bundle/delimitMate"]
 	path = bundle/delimitMate
 	url = https://github.com/Raimondi/delimitMate.git
+[submodule "bundle/php-xdebug-vim"]
+	path = bundle/php-xdebug-vim
+	url = git://github.com/travisj/php-xdebug-vim.git
