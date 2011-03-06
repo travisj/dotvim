@@ -72,6 +72,9 @@ nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
 nnoremap <C-l> <C-w>l
 
+" highlight text after it has been pasted
+nnoremap <expr> gp '`[' . strpart(getregtype(), 0, 1) . '`]''`]`'
+
 let g:sparkupExecuteMapping='<c-g>'
 
 :vmap // y/<C-R>"<CR> "search for visually highlighted text

@@ -58,3 +58,15 @@
 [submodule "bundle/php-xdebug-vim"]
 	path = bundle/php-xdebug-vim
 	url = git://github.com/travisj/php-xdebug-vim.git
+[submodule "bundle/haml"]
+	path = bundle/haml
+	url = https://github.com/tpope/vim-haml.git
+[submodule "bundle/visual-star-search"]
+	path = bundle/visual-star-search
+	url = https://github.com/bronson/vim-visual-star-search.git
+[submodule "bundle/vim-todo"]
+	path = bundle/vim-todo
+	url = https://github.com/codegram/vim-todo.git
+[submodule "bundle/vim-pastie"]
+	path = bundle/vim-pastie
+	url = https://github.com/tpope/vim-pastie.git
