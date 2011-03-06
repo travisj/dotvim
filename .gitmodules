@@ -70,3 +70,6 @@
 [submodule "bundle/vim-pastie"]
 	path = bundle/vim-pastie
 	url = https://github.com/tpope/vim-pastie.git
+[submodule "bundle/molakai"]
+	path = bundle/molakai
+	url = https://github.com/mrtazz/molokai.vim.git
