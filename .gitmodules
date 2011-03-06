@@ -58,3 +58,6 @@
 [submodule "bundle/php-xdebug-vim"]
 	path = bundle/php-xdebug-vim
 	url = git://github.com/travisj/php-xdebug-vim.git
+[submodule "bundle/molakai"]
+	path = bundle/molakai
+	url = https://github.com/mrtazz/molokai.vim.git
