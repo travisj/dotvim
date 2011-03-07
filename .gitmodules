@@ -73,3 +73,12 @@
 [submodule "bundle/molakai"]
 	path = bundle/molakai
 	url = https://github.com/mrtazz/molokai.vim.git
+[submodule "bundle/vividchalk"]
+	path = bundle/vividchalk
+	url = https://github.com/tpope/vim-vividchalk.git
+[submodule "bundle/tabular"]
+	path = bundle/tabular
+	url = https://github.com/godlygeek/tabular.git
+[submodule "bundle/irblack"]
+	path = bundle/irblack
+	url = https://github.com/wgibbs/vim-irblack.git
