@@ -60,6 +60,7 @@ map <leader>r :set relativenumber!<CR>
 map <leader>s :setlocal spell!<CR>
 map <leader>v :e ~/.vimrc<CR>
 map <leader>w :w<CR>
+map <leader>y :Extradite<CR>
 map <leader>= <c-w>=
 map <leader>/ /<C-p>
 lnoremap <leader>, <ESC>
