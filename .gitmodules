@@ -82,3 +82,9 @@
 [submodule "bundle/vim-extradite"]
 	path = bundle/vim-extradite
 	url = https://github.com/int3/vim-extradite.git
+[submodule "bundle/tagbar"]
+	path = bundle/tagbar
+	url = https://github.com/majutsushi/tagbar.git
+[submodule "bundle/pbcopy"]
+	path = bundle/pbcopy
+	url = https://github.com/mortice/pbcopy.vim.git
