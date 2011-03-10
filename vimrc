@@ -52,6 +52,7 @@ map <leader>a :set wrap!<CR>
 map <leader>g :GundoToggle<CR>
 map <leader>k :nohlsearch<CR>  
 map <leader>l :source ~/.vimrc<CR>
+map <leader>e :Extradite<CR>
 map <leader>n :set number!<CR>
 map <leader>o :only<CR>
 map <leader>p :set paste!<CR>
@@ -60,7 +61,7 @@ map <leader>r :set relativenumber!<CR>
 map <leader>s :setlocal spell!<CR>
 map <leader>v :e ~/.vimrc<CR>
 map <leader>w :w<CR>
-map <leader>y :Extradite<CR>
+map <leader>y y :PBCopy<CR>
 map <leader>= <c-w>=
 map <leader>/ /<C-p>
 lnoremap <leader>, <ESC>
@@ -79,3 +80,6 @@ nnoremap <expr> gp '`[' . strpart(getregtype(), 0, 1) . '`]''`]`'
 let g:sparkupExecuteMapping='<c-g>'
 
 :vmap // y/<C-R>"<CR> "search for visually highlighted text
+
+"SyntasticEnable php
+let g:syntastic_auto_loc_list=1
