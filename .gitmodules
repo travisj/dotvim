@@ -73,9 +73,6 @@
 [submodule "bundle/molakai"]
 	path = bundle/molakai
 	url = https://github.com/mrtazz/molokai.vim.git
-[submodule "bundle/vividchalk"]
-	path = bundle/vividchalk
-	url = https://github.com/tpope/vim-vividchalk.git
 [submodule "bundle/tabular"]
 	path = bundle/tabular
 	url = https://github.com/godlygeek/tabular.git
@@ -87,4 +84,4 @@
 	url = https://github.com/majutsushi/tagbar.git
 [submodule "bundle/pbcopy"]
 	path = bundle/pbcopy
-	url = https://github.com/mortice/pbcopy.vim.git
+	url = git@github.com:travisj/pbcopy.vim.git
