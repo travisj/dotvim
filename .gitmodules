@@ -85,3 +85,9 @@
 [submodule "bundle/pbcopy"]
 	path = bundle/pbcopy
 	url = git@github.com:travisj/pbcopy.vim.git
+[submodule "bundle/VimKata"]
+	path = bundle/VimKata
+	url = https://github.com/canadaduane/VimKata.git
+[submodule "bundle/indent-guides"]
+	path = bundle/indent-guides
+	url = https://github.com/nathanaelkane/vim-indent-guides.git
