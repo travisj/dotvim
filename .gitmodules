@@ -79,6 +79,9 @@
 [submodule "bundle/pbcopy"]
 	path = bundle/pbcopy
 	url = git@github.com:travisj/pbcopy.vim.git
+[submodule "bundle/jade"]
+	path = bundle/jade
+	url = https://github.com/digitaltoad/vim-jade.git
 [submodule "bundle/VimKata"]
 	path = bundle/VimKata
 	url = https://github.com/canadaduane/VimKata.git
@@ -94,3 +97,6 @@
 [submodule "bundle/command-t"]
 	path = bundle/command-t
 	url = https://github.com/wincent/Command-T.git
+[submodule "bundle/markdown"]
+	path = bundle/markdown
+	url = https://github.com/plasticboy/vim-markdown.git
