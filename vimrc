@@ -37,6 +37,7 @@ set wildmenu
 set wildmode=list:longest
 set wildignore+=*Zend*,.git,*bundles*
 set undofile
+set shortmess+=I
 
 set colorcolumn=85
 
@@ -83,3 +84,6 @@ let g:sparkupExecuteMapping='<c-g>'
 
 "SyntasticEnable php
 let g:syntastic_auto_loc_list=1
+
+let g:gist_open_browser_after_post = 1
+let g:gist_browser_command = 'ssh local open %URL%'
