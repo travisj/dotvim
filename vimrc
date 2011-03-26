@@ -44,6 +44,7 @@ let NERDTreeQuitOnOpen=1
 map <C-c> :NERDTreeToggle<CR>  
 
 nnoremap <CR> <C-^>  
+nnoremap <C-w> :w<CR>
 
 let mapleader = ","
 
