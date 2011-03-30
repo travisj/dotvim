@@ -55,6 +55,7 @@ map <leader>g :GundoToggle<CR>
 map <leader>k :nohlsearch<CR>  
 map <leader>l :source ~/.vimrc<CR>
 map <leader>e :Extradite<CR>
+map <leader>f :CommandTFlush<CR>
 map <leader>n :set number!<CR>
 map <leader>o :only<CR>
 map <leader>p :set paste!<CR>
