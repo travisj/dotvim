@@ -25,6 +25,7 @@ set laststatus=2
 set tabstop=2  
 set softtabstop=2  
 set shiftwidth=2  
+"set cursorline
 "set noexpandtab  
 set incsearch  
 set ignorecase  
@@ -44,13 +45,14 @@ set colorcolumn=85
 let NERDTreeQuitOnOpen=1  
 map <C-c> :NERDTreeToggle<CR>  
 
+inoremap jj <ESC>
 nnoremap <CR> <C-^>  
-nnoremap <C-w> :w<CR>
+"nnoremap <C-w> :w<CR>
 
 let mapleader = ","
 
-inoremap jj <ESC>
 map <leader>a :set wrap!<CR>
+map <leader>b ggVG
 map <leader>g :GundoToggle<CR>
 map <leader>k :nohlsearch<CR>  
 map <leader>l :source ~/.vimrc<CR>
@@ -69,7 +71,6 @@ map <leader>= <c-w>=
 map <leader>/ /<C-p>
 lnoremap <leader>, <ESC>
 noremap <leader>, <ESC>
-"map <leader>| <c-w>|
 
 "Easier splits navigation - Remapped Caps Lock to Control    
 nnoremap <C-h> <C-w>h
@@ -77,12 +78,7 @@ nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
 nnoremap <C-l> <C-w>l
 
-" highlight text after it has been pasted
-nnoremap <expr> gp '`[' . strpart(getregtype(), 0, 1) . '`]''`]`'
-
 let g:sparkupExecuteMapping='<c-g>'
-
-:vmap // y/<C-R>"<CR> "search for visually highlighted text
 
 "SyntasticEnable php
 let g:syntastic_auto_loc_list=1
