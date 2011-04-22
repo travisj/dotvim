@@ -19,3 +19,12 @@ snippet tryjson
 	}
 snippet elje
 	error_log(json_encode(${1}));${2}
+snippet sfun
+	static ${1:public} function ${2:name}(${3})
+	{
+		${4}
+	}
+snippet sinc
+	Stats::inc('${1:stat_name}');
+snippet stim
+	Stats::timing('${1:stat_name}', ${2:time});
