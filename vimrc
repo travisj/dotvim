@@ -53,6 +53,7 @@ let mapleader = ","
 
 map <leader>a :set wrap!<CR>
 map <leader>b ggVG
+map <leader>c :e application/config.php<CR>
 map <leader>g :GundoToggle<CR>
 map <leader>k :nohlsearch<CR>  
 map <leader>l :source ~/.vimrc<CR>
@@ -78,6 +79,12 @@ nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
 nnoremap <C-l> <C-w>l
 
+"Tabs!!!
+nnoremap <C-n> :tabn<CR>
+nnoremap <C-p> :tabp<CR>
+
+nnoremap <leader>m <C-w>\| 0
+
 let g:sparkupExecuteMapping='<c-g>'
 
 "SyntasticEnable php
@@ -85,3 +92,9 @@ let g:syntastic_auto_loc_list=1
 
 let g:gist_open_browser_after_post = 1
 let g:gist_browser_command = 'ssh local open %URL%'
+
+"source ~/.vimrc-simplenote
+"
+
+" jslint testing
+nmap <F4> :w<CR>:make<CR>:cw<CR>

@@ -97,3 +97,12 @@
 [submodule "bundle/command-t"]
 	path = bundle/command-t
 	url = https://github.com/wincent/Command-T.git
+[submodule "bundle/simplenote"]
+	path = bundle/simplenote
+	url = https://github.com/mrtazz/simplenote.vim.git
+[submodule "bundle/piv"]
+	path = bundle/piv
+	url = git://github.com/spf13/PIV.git
+[submodule "bundle/vim-jslint"]
+	path = bundle/vim-jslint
+	url = git@github.com:travisj/vim-jslint.git
