@@ -106,3 +106,6 @@
 [submodule "bundle/vim-jslint"]
 	path = bundle/vim-jslint
 	url = git@github.com:travisj/vim-jslint.git
+[submodule "bundle/vim-coffee-script"]
+	path = bundle/vim-coffee-script
+	url = https://github.com/kchmck/vim-coffee-script.git
