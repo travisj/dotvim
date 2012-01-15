@@ -65,6 +65,7 @@ map <leader>p :set paste!<CR>
 map <leader>q :wqa<CR>
 map <leader>r :set relativenumber!<CR>
 map <leader>s :setlocal spell!<CR>
+map <leader>t :CtrlP<CR>
 map <leader>v :e ~/.vimrc<CR>
 map <leader>w :w<CR>
 map <leader>y y :PBCopy<CR>
