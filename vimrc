@@ -36,7 +36,7 @@ set textwidth=0
 set bs=2
 set wildmenu
 set wildmode=list:longest
-set wildignore+=*Zend*,.git,*bundles*
+set wildignore+=*Zend*,.git,*bundles*,*.un~*
 set undofile
 set shortmess+=I
 
@@ -99,3 +99,6 @@ let g:gist_browser_command = 'ssh local open %URL%'
 
 " jslint testing
 nmap <F4> :w<CR>:make<CR>:cw<CR>
+
+
+let g:ctrlp_max_height = 30
