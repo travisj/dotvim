@@ -36,7 +36,7 @@ set textwidth=0
 set bs=2
 set wildmenu
 set wildmode=list:longest
-set wildignore+=*Zend*,.git,*bundles*
+set wildignore+=*Zend*,.git,*bundles*,*.un~*
 set undofile
 set shortmess+=I
 
@@ -65,6 +65,7 @@ map <leader>p :set paste!<CR>
 map <leader>q :wqa<CR>
 map <leader>r :set relativenumber!<CR>
 map <leader>s :setlocal spell!<CR>
+map <leader>t :CtrlP<CR>
 map <leader>v :e ~/.vimrc<CR>
 map <leader>w :w<CR>
 map <leader>y y :PBCopy<CR>
@@ -98,3 +99,6 @@ let g:gist_browser_command = 'ssh local open %URL%'
 
 " jslint testing
 nmap <F4> :w<CR>:make<CR>:cw<CR>
+
+
+let g:ctrlp_max_height = 30
