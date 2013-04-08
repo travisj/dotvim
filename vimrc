@@ -43,6 +43,7 @@ set shortmess+=I
 set colorcolumn=85
 
 let NERDTreeQuitOnOpen=1  
+let NERDTreeHijackNetrw=1
 map <C-c> :NERDTreeToggle<CR>  
 
 inoremap jj <ESC>
