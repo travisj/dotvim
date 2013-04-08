@@ -13,6 +13,9 @@ set modelines=0
 autocmd BufRead,BufNewFile *.phtml set ft=html
 autocmd BufRead,BufNewFile markdown set ft=markdown
 
+au BufRead,BufNewFile *.pde set filetype=arduino
+au BufRead,BufNewFile *.ino set filetype=arduino
+
 set autoindent  
 set hlsearch
 set smartindent  
